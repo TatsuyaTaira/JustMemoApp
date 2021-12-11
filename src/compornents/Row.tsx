@@ -31,7 +31,7 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     fetchData();
   }, [fetchUrl]);
   //console.log('aaa');
-  console.log(movies);
+  //console.log(movies);
 
   return (
     <div className='Row'>
